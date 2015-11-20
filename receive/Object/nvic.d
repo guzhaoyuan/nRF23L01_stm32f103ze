@@ -1,0 +1,13 @@
+.\nvic.o: ..\User\NVIC.c
+.\nvic.o: ..\User\NVIC.h
+.\nvic.o: ..\CMSIS\stm32f10x.h
+.\nvic.o: ..\CMSIS\core_cm3.h
+.\nvic.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nvic.o: ..\CMSIS\system_stm32f10x.h
+.\nvic.o: ..\User\stm32f10x_conf.h
+.\nvic.o: ..\StdPeriph_Driver\inc\stm32f10x_exti.h
+.\nvic.o: ..\CMSIS\stm32f10x.h
+.\nvic.o: ..\StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\nvic.o: ..\StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\nvic.o: ..\StdPeriph_Driver\inc\stm32f10x_usart.h
+.\nvic.o: ..\StdPeriph_Driver\inc\misc.h

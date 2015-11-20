@@ -1,0 +1,13 @@
+.\gpio_config.o: ..\User\GPIO_Config.c
+.\gpio_config.o: ..\User\GPIO_Config.h
+.\gpio_config.o: ..\CMSIS\stm32f10x.h
+.\gpio_config.o: ..\CMSIS\core_cm3.h
+.\gpio_config.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\gpio_config.o: ..\CMSIS\system_stm32f10x.h
+.\gpio_config.o: ..\User\stm32f10x_conf.h
+.\gpio_config.o: ..\StdPeriph_Driver\inc\stm32f10x_exti.h
+.\gpio_config.o: ..\CMSIS\stm32f10x.h
+.\gpio_config.o: ..\StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\gpio_config.o: ..\StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\gpio_config.o: ..\StdPeriph_Driver\inc\stm32f10x_usart.h
+.\gpio_config.o: ..\StdPeriph_Driver\inc\misc.h

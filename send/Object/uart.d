@@ -1,0 +1,14 @@
+.\uart.o: ..\User\uart.c
+.\uart.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\uart.o: ..\StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\uart.o: ..\CMSIS\stm32f10x.h
+.\uart.o: ..\CMSIS\core_cm3.h
+.\uart.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\uart.o: ..\CMSIS\system_stm32f10x.h
+.\uart.o: ..\User\stm32f10x_conf.h
+.\uart.o: ..\StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\uart.o: ..\StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\uart.o: ..\CMSIS\stm32f10x.h
+.\uart.o: ..\StdPeriph_Driver\inc\misc.h
+.\uart.o: ..\StdPeriph_Driver\inc\stm32f10x_usart.h
+.\uart.o: ..\User\uart.h

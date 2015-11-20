@@ -1,0 +1,15 @@
+.\nrf24l01.o: ..\User\NRF24L01.c
+.\nrf24l01.o: ..\User\GPIO_Config.h
+.\nrf24l01.o: ..\CMSIS\stm32f10x.h
+.\nrf24l01.o: ..\CMSIS\core_cm3.h
+.\nrf24l01.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nrf24l01.o: ..\CMSIS\system_stm32f10x.h
+.\nrf24l01.o: ..\User\stm32f10x_conf.h
+.\nrf24l01.o: ..\StdPeriph_Driver\inc\stm32f10x_exti.h
+.\nrf24l01.o: ..\CMSIS\stm32f10x.h
+.\nrf24l01.o: ..\StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\nrf24l01.o: ..\StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\nrf24l01.o: ..\StdPeriph_Driver\inc\stm32f10x_usart.h
+.\nrf24l01.o: ..\StdPeriph_Driver\inc\misc.h
+.\nrf24l01.o: ..\User\NRF24L01.h
+.\nrf24l01.o: ..\User\EXTI.h
