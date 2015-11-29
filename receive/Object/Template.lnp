@@ -1,10 +1,10 @@
 --cpu Cortex-M3
 ".\stm32f10x_it.o"
-".\main.o"
 ".\exti.o"
 ".\gpio_config.o"
 ".\nrf24l01.o"
 ".\nvic.o"
+".\main.o"
 ".\uart1.o"
 ".\core_cm3.o"
 ".\system_stm32f10x.o"

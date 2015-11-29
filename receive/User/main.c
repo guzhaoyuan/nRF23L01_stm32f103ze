@@ -28,8 +28,5 @@ int main(void)
 	SetRX_Mode();	//接收数据
 	while(1)
 	{
-		
-		//while(!nRF24L01_RxPacket(RxBuf)){};
-		
 	}
 }

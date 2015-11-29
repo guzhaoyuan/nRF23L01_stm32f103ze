@@ -30,10 +30,18 @@ int main(void)
 	Delay(250);
 	while(1)
 	{
-//		LED1_ON;
-//		nRF24L01_TxPacket(TxBuf);
-//		LED1_OFF;
-//		Delay(2250);
+			TxBuf[4]=0xfc;
+			nRF24L01_TxPacket(TxBuf);
+			LED1_OFF;
+			LED2_ON;
+			USART1_printf( USART1, "\r\n fc sent \r\n" );
+			Delay(2250);
+			TxBuf[4]=0xcf;
+			nRF24L01_TxPacket(TxBuf);
+			LED1_ON;
+			LED2_OFF;
+			USART1_printf( USART1, "\r\n cf sent \r\n" );
+			Delay(2250);
 		
 	}
 }

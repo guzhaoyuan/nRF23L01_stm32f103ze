@@ -5,6 +5,8 @@
 
 #define   LED1_ON        GPIO_SetBits(GPIOD, GPIO_Pin_13)
 #define   LED1_OFF       GPIO_ResetBits(GPIOD, GPIO_Pin_13)
+#define   LED2_ON        GPIO_SetBits(GPIOG, GPIO_Pin_14)
+#define   LED2_OFF       GPIO_ResetBits(GPIOG, GPIO_Pin_14)
 #define   NRF_CE_1		 GPIO_SetBits(GPIOA, GPIO_Pin_4)
 #define   NRF_CE_0		 GPIO_ResetBits(GPIOA, GPIO_Pin_4)
 #define   NRF_CSN_1		 GPIO_SetBits(GPIOC, GPIO_Pin_4)

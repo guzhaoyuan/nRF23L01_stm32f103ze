@@ -20,6 +20,7 @@ void init_NRF24L01(void)
 	SPI_RW_Reg(NRF_WRITE_REG + EN_AA, 0x01);      //  频道0自动	ACK应答允许	
 	SPI_RW_Reg(NRF_WRITE_REG + EN_RXADDR, 0x01);  //  允许接收地址只有频道0，如果需要多频道可以参考Page21  
 	SPI_RW_Reg(NRF_WRITE_REG + RF_CH, 0);        //   设置信道工作为2.4GHZ，收发必须一致
+	SPI_RW_Reg(NRF_WRITE_REG + SETUP_RETR,0x1a);//设置自动重发间隔时间:500us + 86us;最大自动重发次数:10次
 	SPI_RW_Reg(NRF_WRITE_REG + RX_PW_P0, RX_PLOAD_WIDTH); //设置接收数据长度，本次设置为32字节
 	SPI_RW_Reg(NRF_WRITE_REG + RF_SETUP, 0x07);   		//设置发射速率为1MHZ，发射功率为最大值0dB	
 	SPI_RW_Reg(NRF_WRITE_REG + CONFIG, 0x0e);   		 // IRQ收发完成中断响应，16位CRC，主发送

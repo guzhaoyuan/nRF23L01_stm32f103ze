@@ -428,34 +428,44 @@
               <FilePath>..\User\stm32f10x_it.h</FilePath>
             </File>
             <File>
-              <FileName>uart.c</FileName>
+              <FileName>EXTI.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\User\uart.c</FilePath>
+              <FilePath>..\User\EXTI.c</FilePath>
             </File>
             <File>
-              <FileName>nRF24l01.c</FileName>
+              <FileName>EXTI.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\EXTI.h</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO_Config.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\User\nRF24l01.c</FilePath>
+              <FilePath>..\User\GPIO_Config.c</FilePath>
             </File>
             <File>
-              <FileName>nRF24L01.h</FileName>
+              <FileName>GPIO_Config.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\User\nRF24L01.h</FilePath>
+              <FilePath>..\User\GPIO_Config.h</FilePath>
             </File>
             <File>
-              <FileName>uart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\User\uart.h</FilePath>
-            </File>
-            <File>
-              <FileName>delay.c</FileName>
+              <FileName>NRF24L01.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\User\delay.c</FilePath>
+              <FilePath>..\User\NRF24L01.c</FilePath>
             </File>
             <File>
-              <FileName>delay.h</FileName>
+              <FileName>NRF24L01.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\User\delay.h</FilePath>
+              <FilePath>..\User\NRF24L01.h</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\NVIC.c</FilePath>
+            </File>
+            <File>
+              <FileName>NVIC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\NVIC.h</FilePath>
             </File>
           </Files>
         </Group>

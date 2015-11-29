@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (..\User\stm32f10x_it.c)(0x5648452A)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_it.o --omf_browse .\stm32f10x_it.crf --depend .\stm32f10x_it.d)
+F (..\User\stm32f10x_it.c)(0x5648452A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_it.o --omf_browse .\stm32f10x_it.crf --depend .\stm32f10x_it.d)
 I (..\User\stm32f10x_it.h)(0x4CBC5B58)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -13,22 +13,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
 F (..\User\stm32f10x_conf.h)(0x564C053D)()
 F (..\User\stm32f10x_it.h)(0x4CBC5B58)()
-F (..\User\main.c)(0x564C91C4)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
-I (..\CMSIS\core_cm3.h)(0x4CBC3900)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
-I (..\CMSIS\system_stm32f10x.h)(0x4CBC3900)
-I (..\User\stm32f10x_conf.h)(0x564C053D)
-I (..\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4CBC3904)
-I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
-I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
-I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
-I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-I (..\User\GPIO_Config.h)(0x564C103F)
-I (..\User\NVIC.h)(0x5089DC2C)
-I (..\User\EXTI.h)(0x508A25C9)
-I (..\User\NRF24L01.h)(0x508F24C7)
-F (..\User\EXTI.c)(0x564C9275)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\exti.o --omf_browse .\exti.crf --depend .\exti.d)
+F (..\User\EXTI.c)(0x565B1E18)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\exti.o --omf_browse .\exti.crf --depend .\exti.d)
 I (..\User\EXTI.h)(0x508A25C9)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -41,11 +26,11 @@ I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
 I (..\User\NVIC.h)(0x5089DC2C)
-I (..\User\GPIO_Config.h)(0x564C103F)
+I (..\User\GPIO_Config.h)(0x565B1BAF)
 I (..\User\NRF24L01.h)(0x508F24C7)
 F (..\User\EXTI.h)(0x508A25C9)()
-F (..\User\GPIO_Config.c)(0x564C8A93)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\gpio_config.o --omf_browse .\gpio_config.crf --depend .\gpio_config.d)
-I (..\User\GPIO_Config.h)(0x564C103F)
+F (..\User\GPIO_Config.c)(0x565B1D49)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\gpio_config.o --omf_browse .\gpio_config.crf --depend .\gpio_config.d)
+I (..\User\GPIO_Config.h)(0x565B1BAF)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -56,9 +41,9 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\User\GPIO_Config.h)(0x564C103F)()
-F (..\User\NRF24L01.c)(0x564C8C40)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\nrf24l01.o --omf_browse .\nrf24l01.crf --depend .\nrf24l01.d)
-I (..\User\GPIO_Config.h)(0x564C103F)
+F (..\User\GPIO_Config.h)(0x565B1BAF)()
+F (..\User\NRF24L01.c)(0x564C8C40)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\nrf24l01.o --omf_browse .\nrf24l01.crf --depend .\nrf24l01.d)
+I (..\User\GPIO_Config.h)(0x565B1BAF)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -72,7 +57,7 @@ I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
 I (..\User\NRF24L01.h)(0x508F24C7)
 I (..\User\EXTI.h)(0x508A25C9)
 F (..\User\NRF24L01.h)(0x508F24C7)()
-F (..\User\NVIC.c)(0x564C8269)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\nvic.o --omf_browse .\nvic.crf --depend .\nvic.d)
+F (..\User\NVIC.c)(0x564C8269)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\nvic.o --omf_browse .\nvic.crf --depend .\nvic.d)
 I (..\User\NVIC.h)(0x5089DC2C)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -85,7 +70,22 @@ I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
 F (..\User\NVIC.h)(0x5089DC2C)()
-F (..\User\UART1.c)(0x508DE30C)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\uart1.o --omf_browse .\uart1.crf --depend .\uart1.d)
+F (..\User\main.c)(0x565B1E18)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
+I (..\CMSIS\core_cm3.h)(0x4CBC3900)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4CBC3900)
+I (..\User\stm32f10x_conf.h)(0x564C053D)
+I (..\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4CBC3904)
+I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
+I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
+I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
+I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
+I (..\User\GPIO_Config.h)(0x565B1BAF)
+I (..\User\NVIC.h)(0x5089DC2C)
+I (..\User\EXTI.h)(0x508A25C9)
+I (..\User\NRF24L01.h)(0x508F24C7)
+F (..\User\UART1.c)(0x508DE30C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\uart1.o --omf_browse .\uart1.crf --depend .\uart1.d)
 I (..\User\UART1.h)(0x508DE31E)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -100,11 +100,11 @@ I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x53463A44)
 F (..\User\UART1.h)(0x508DE31E)()
-F (..\CMSIS\core_cm3.c)(0x4CBC3900)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+F (..\CMSIS\core_cm3.c)(0x4CBC3900)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
 F (..\CMSIS\core_cm3.h)(0x4CBC3900)()
 F (..\CMSIS\stm32f10x.h)(0x4CBC3900)()
-F (..\CMSIS\system_stm32f10x.c)(0x4CBC5B58)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+F (..\CMSIS\system_stm32f10x.c)(0x4CBC5B58)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -139,7 +139,7 @@ F (..\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)()
 F (..\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)()
 F (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)()
 F (..\StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4CBC3904)()
-F (..\StdPeriph_Driver\src\misc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
+F (..\StdPeriph_Driver\src\misc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -150,7 +150,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_adc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_adc.o --omf_browse .\stm32f10x_adc.crf --depend .\stm32f10x_adc.d)
+F (..\StdPeriph_Driver\src\stm32f10x_adc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_adc.o --omf_browse .\stm32f10x_adc.crf --depend .\stm32f10x_adc.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -162,7 +162,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_bkp.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_bkp.o --omf_browse .\stm32f10x_bkp.crf --depend .\stm32f10x_bkp.d)
+F (..\StdPeriph_Driver\src\stm32f10x_bkp.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_bkp.o --omf_browse .\stm32f10x_bkp.crf --depend .\stm32f10x_bkp.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -174,7 +174,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_can.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_can.o --omf_browse .\stm32f10x_can.crf --depend .\stm32f10x_can.d)
+F (..\StdPeriph_Driver\src\stm32f10x_can.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_can.o --omf_browse .\stm32f10x_can.crf --depend .\stm32f10x_can.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_can.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -186,7 +186,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_cec.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_cec.o --omf_browse .\stm32f10x_cec.crf --depend .\stm32f10x_cec.d)
+F (..\StdPeriph_Driver\src\stm32f10x_cec.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_cec.o --omf_browse .\stm32f10x_cec.crf --depend .\stm32f10x_cec.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_cec.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -198,7 +198,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_crc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_crc.o --omf_browse .\stm32f10x_crc.crf --depend .\stm32f10x_crc.d)
+F (..\StdPeriph_Driver\src\stm32f10x_crc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_crc.o --omf_browse .\stm32f10x_crc.crf --depend .\stm32f10x_crc.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -210,7 +210,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_dac.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_dac.o --omf_browse .\stm32f10x_dac.crf --depend .\stm32f10x_dac.d)
+F (..\StdPeriph_Driver\src\stm32f10x_dac.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_dac.o --omf_browse .\stm32f10x_dac.crf --depend .\stm32f10x_dac.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -222,7 +222,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_dbgmcu.o --omf_browse .\stm32f10x_dbgmcu.crf --depend .\stm32f10x_dbgmcu.d)
+F (..\StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_dbgmcu.o --omf_browse .\stm32f10x_dbgmcu.crf --depend .\stm32f10x_dbgmcu.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -234,7 +234,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_dma.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_dma.o --omf_browse .\stm32f10x_dma.crf --depend .\stm32f10x_dma.d)
+F (..\StdPeriph_Driver\src\stm32f10x_dma.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_dma.o --omf_browse .\stm32f10x_dma.crf --depend .\stm32f10x_dma.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -246,7 +246,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_exti.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_exti.o --omf_browse .\stm32f10x_exti.crf --depend .\stm32f10x_exti.d)
+F (..\StdPeriph_Driver\src\stm32f10x_exti.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_exti.o --omf_browse .\stm32f10x_exti.crf --depend .\stm32f10x_exti.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -257,7 +257,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_flash.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_flash.o --omf_browse .\stm32f10x_flash.crf --depend .\stm32f10x_flash.d)
+F (..\StdPeriph_Driver\src\stm32f10x_flash.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_flash.o --omf_browse .\stm32f10x_flash.crf --depend .\stm32f10x_flash.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -269,7 +269,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_fsmc.o --omf_browse .\stm32f10x_fsmc.crf --depend .\stm32f10x_fsmc.d)
+F (..\StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_fsmc.o --omf_browse .\stm32f10x_fsmc.crf --depend .\stm32f10x_fsmc.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -281,7 +281,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_gpio.o --omf_browse .\stm32f10x_gpio.crf --depend .\stm32f10x_gpio.d)
+F (..\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_gpio.o --omf_browse .\stm32f10x_gpio.crf --depend .\stm32f10x_gpio.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -292,7 +292,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_i2c.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_i2c.o --omf_browse .\stm32f10x_i2c.crf --depend .\stm32f10x_i2c.d)
+F (..\StdPeriph_Driver\src\stm32f10x_i2c.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_i2c.o --omf_browse .\stm32f10x_i2c.crf --depend .\stm32f10x_i2c.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -304,7 +304,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_iwdg.o --omf_browse .\stm32f10x_iwdg.crf --depend .\stm32f10x_iwdg.d)
+F (..\StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_iwdg.o --omf_browse .\stm32f10x_iwdg.crf --depend .\stm32f10x_iwdg.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -316,7 +316,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_pwr.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_pwr.o --omf_browse .\stm32f10x_pwr.crf --depend .\stm32f10x_pwr.d)
+F (..\StdPeriph_Driver\src\stm32f10x_pwr.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_pwr.o --omf_browse .\stm32f10x_pwr.crf --depend .\stm32f10x_pwr.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -328,7 +328,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_rcc.o --omf_browse .\stm32f10x_rcc.crf --depend .\stm32f10x_rcc.d)
+F (..\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_rcc.o --omf_browse .\stm32f10x_rcc.crf --depend .\stm32f10x_rcc.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -339,7 +339,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_rtc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_rtc.o --omf_browse .\stm32f10x_rtc.crf --depend .\stm32f10x_rtc.d)
+F (..\StdPeriph_Driver\src\stm32f10x_rtc.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_rtc.o --omf_browse .\stm32f10x_rtc.crf --depend .\stm32f10x_rtc.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -351,7 +351,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_sdio.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_sdio.o --omf_browse .\stm32f10x_sdio.crf --depend .\stm32f10x_sdio.d)
+F (..\StdPeriph_Driver\src\stm32f10x_sdio.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_sdio.o --omf_browse .\stm32f10x_sdio.crf --depend .\stm32f10x_sdio.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -363,7 +363,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_spi.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_spi.o --omf_browse .\stm32f10x_spi.crf --depend .\stm32f10x_spi.d)
+F (..\StdPeriph_Driver\src\stm32f10x_spi.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_spi.o --omf_browse .\stm32f10x_spi.crf --depend .\stm32f10x_spi.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -375,7 +375,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_tim.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
+F (..\StdPeriph_Driver\src\stm32f10x_tim.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -387,7 +387,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_usart.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_usart.o --omf_browse .\stm32f10x_usart.crf --depend .\stm32f10x_usart.d)
+F (..\StdPeriph_Driver\src\stm32f10x_usart.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_usart.o --omf_browse .\stm32f10x_usart.crf --depend .\stm32f10x_usart.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -398,7 +398,7 @@ I (..\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_wwdg.o --omf_browse .\stm32f10x_wwdg.crf --depend .\stm32f10x_wwdg.d)
+F (..\StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x4CBC3904)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\StdPeriph_Driver\inc -I..\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\stm32f10x_wwdg.o --omf_browse .\stm32f10x_wwdg.crf --depend .\stm32f10x_wwdg.d)
 I (..\StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x4CBC3904)
 I (..\CMSIS\stm32f10x.h)(0x4CBC3900)
 I (..\CMSIS\core_cm3.h)(0x4CBC3900)
@@ -410,4 +410,4 @@ I (..\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4CBC3904)
 I (..\StdPeriph_Driver\inc\misc.h)(0x4CBC3904)
-F (..\StartUp\startup_stm32f10x_md.s)(0x4CBC3902)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0--list ..\listing\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (..\StartUp\startup_stm32f10x_md.s)(0x4CBC3902)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0--list ..\listing\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)

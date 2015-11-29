@@ -41,26 +41,20 @@ void EXTI9_5_IRQHandler(void)
 		if(EXTI_GetITStatus(EXTI_Line5) != RESET)
 	{
 		EXTI_ClearITPendingBit(EXTI_Line5);
-		LED1_ON;
-//		Delay(2250);
-	//	SPI_RW_Reg(NRF_WRITE_REG+STATUS,0XFF);
-		//USART1_printf( USART1, "\r\n receive somthing \r\n" );
 		if(nRF24L01_RxPacket(RxBuf))
 		{
 			if(RxBuf[4]==0xcf)
 			{
 			USART1_printf( USART1, "cf\r\n" );
-			LED1_ON;
+			LED1_ON;LED2_OFF;
 			}
 			else if(RxBuf[4]==0xfc)
 			{
 			USART1_printf( USART1, "fc\r\n" );
-			LED1_OFF;	
+			LED1_OFF;LED2_ON;
 			}
 		}
 		SetRX_Mode();	//接收数据
-		Delay(2250);				
-		LED1_OFF;
 	}
 		
 }
